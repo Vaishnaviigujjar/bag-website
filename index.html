@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+         nav{
+            height: 70px;
+            width: 100%;
+            background-color: #F08080;
+        
+            backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top:0px;
+            z-index: 100;
+
+        }
+        
+        nav .nav-items{
+            position: absolute;
+            right: 20px;
+            
+        }
+        .nav-items a{
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+            padding: 15px 5px;
+           
+            
+        }
+        .nav-items:hover a{
+            filter: blur(2px);
+        }
+        .nav-items a:hover{
+            color: whitesmoke;
+            filter: blur(0px);
+        }
+        .r{
+            height: 700px;
+            width: 100%;
+            background-color: aquamarine;
+            position: flex;
+            background-image: url(bag2.jpg);
+            -webkit-background-clip: content-box;
+          
+            top:500px;
+        }
+        
+
+       
+        .TOTE{
+            height: 100vh;
+            width: 100%;
+
+        }
+        .th1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            position: relative;
+            top:70px;
+            align-items:center ;
+            justify-content: center;
+            
+        }
+        .timg{
+            height: 550px;
+            width: 100%;
+            position: relative;
+            top:100px;
+
+        }
+        .timg img{
+            height: 200px;
+            width: 250px;
+            margin: 20px;
+            
+        }
+        .timg img:hover{
+            height: 230px;
+            width: 230px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+            position: relative;
+            top: 100px;
+            
+
+        }
+        .SHOULDER{
+            height: 100vh;
+            width: 100%;
+        }
+        .sh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            position: relative;
+            top:70px;
+        }
+        .simg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .simg img{
+            height: 200px;
+            width: 250px;
+            margin: 20px;
+            position: relative;
+            top:100px;
+        }
+        .simg img:hover{
+            height: 230px;
+            width: 230px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+        }
+        .MINI{
+            height: 100vh;
+            width: 100%;
+        }
+        .mh1{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            position: relative;
+            top:70px;
+        
+        }
+        .mimg{
+            height: 550px;
+            width: 100%;
+            position: relative;
+            top:100px;
+
+        }
+        .mimg img{
+            height: 230px;
+            width: 250px;
+            margin: 20px;
+        }
+        .mimg img:hover{
+            height: 260px;
+            width: 260px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+            position: relative;
+            top:100px;
+        }
+        .COIN{
+            height: 100vh;
+            width: 100%;
+        }
+        .ch1{
+            height: 100px;
+            width: 100%;
+            background-color:rgb(255,228,196);
+            font-size: 50px;
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            position: relative;
+            top:70px;
+        }
+        .cimg{
+            height: 550px;
+            width: 100%;
+
+        }
+        .cimg img{
+            height: 230px;
+            width: 250px;
+            margin: 20px;
+            position: relative;
+            top:100px;
+        }
+        .cimg img:hover{
+            height: 260px;
+            width: 260px;
+            transform: scale(1.2);
+            transition: all .5s ease-in-out;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <nav>
+        
+        <div class="nav-items">
+            <a href="#tote">TOTE BAG</a>
+            <a href="#shoul">SHOULDER BAG</a>
+            <a href="#coin">COIN PURSE</a>
+            <a href="#mini">MINI BAG</a>
+        </div>
+    </nav> 
+</div>   
+         <div class="r">
+            <div class="moveBox"> </div> 
+      </div>
+    
+    
+
+     <!-- tote starts -->
+     <div class="TOTE" id="tot">
+        <div class="th1">
+             <h1>TOTE BAG</h1>
+         </div>
+     <div class="timg">
+        <img src="t1.jpg" alt="">
+        <img src="t2.jpg" alt="">
+        <img src="t3.jpg" alt="">
+        <img src="t4.jpg" alt="">
+        <img src="t5.jpg" alt="">
+        <img src="t6.jpg" alt="">
+        <img src="t7.jpg" alt="">
+        <img src="t8.jpg" alt="">
+        <img src="t9.jpg" alt="">
+        <img src="t10.jpg" alt="">
+     </div>
+    
+     </div>
+      
+    <!-- tote ends -->
+
+    <!-- shoul start -->
+    <div class="SHOULDER" id="shoul">
+        <div class="sh1">
+              <h1>SHOULDER BAG</h1>
+        </div>
+        <div class="simg">
+             <img src="s1.jpg" alt="">
+             <img src="s2.jpg" alt="">
+             <img src="s3.jpg" alt="">
+             <img src="s4.jpg" alt="">
+             <img src="s5.jpg" alt="">
+             <img src="s6.jpg" alt="">
+             <img src="s7.jpg" alt="">
+             <img src="s8.jpg" alt="">
+             <img src="s9.jpg" alt="">
+             <img src="s10.jpg" alt="">
+         </div>
+     </div>
+     <!-- shoul end -->
+ 
+     <!-- mini start -->
+     <div class="MINI" id="mini">
+         <div class="mh1">
+               <h1>MINI PURSE</h1>
+         </div>
+         <div class="mimg">
+              <img src="m1.jpg" alt="">
+              <img src="m2.jpg" alt="">
+              <img src="m3.jpg" alt="">
+              <img src="m4.jpg" alt="">
+              <img src="m5.jpg" alt="">
+              <img src="m6.jpg" alt="">
+              <img src="m7.jpg" alt="">
+              <img src="m8.jpg" alt="">
+              <img src="9.jpg" alt="">
+              <img src="m10.jpg" alt="">
+          </div>
+      </div>
+      <!-- mini
+         end -->
+ 
+      <!-- coin start -->
+     <div class="COIN" id="coin">
+         <div class="ch1">
+               <h1>COIN PURSE</h1>
+         </div>
+         <div class="cimg">
+              <img src="c1.jpg" alt="">
+              <img src="c2.jpg" alt="">
+              <img src="c3.jpg" alt="">
+              <img src="c4.jpg" alt="">
+              <img src="c5.jpg" alt="">
+              <img src="c6.jpg" alt="">
+              <img src="c7.jpg" alt="">
+              <img src="c8.jpg" alt="">
+              <img src="c9.jpg" alt="">
+              <img src="c10.jpg" alt="">
+          </div>
+      </div>
+      <!-- coin end -->
+     
+
+    
+</body>
+</html
